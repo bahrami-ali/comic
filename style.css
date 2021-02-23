@@ -1,0 +1,186 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    padding: 0;
+}
+
+
+/*************** Nav Bar **************************/
+
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    padding: .5rem;
+    border-style: solid;
+}
+
+.navbar-links {
+    height: 100%;
+
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.navbar-links li {
+    list-style: none;
+
+
+
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    margin: .5rem;
+    border-style: solid;
+}
+
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    }
+
+
+
+
+
+/*************** Button **************************/
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+button span {
+  display: none;
+}
+
+
+.next {
+
+    background-image: url(images/next.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* put the height and width of your image here */
+    height: 39px;
+    width: 100px;
+    margin: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  .prev {
+
+        background-image: url(images/prev.gif);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        /* put the height and width of your image here */
+        height: 39px;
+        width: 100px;
+        margin: 30px;
+
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+
+
+
+.gallery {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/*************** Responsive **************************/
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 800px) {
+
+  /* Nav bar */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+
+
+}

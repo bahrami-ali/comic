@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D4B07D;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#825944;}
+	.st2{fill:#DECC4A;}
+	.st3{fill:none;}
+	.st4{font-family:'AdobeArabic-Regular';}
+	.st5{font-size:200px;}
+</style>
+<g id="Layer_1">
+	<rect x="1.5" y="0.5" class="st0" width="1280" height="1024"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<rect x="424.5" y="183.5" class="st1" width="432" height="840"/>
+		<path d="M856,184v839H425V184H856 M857,183H424v841h433V183L857,183z"/>
+	</g>
+</g>
+<g id="Layer_3">
+	<g>
+		<circle class="st2" cx="775" cy="635" r="18.5"/>
+		<path d="M775,617c9.93,0,18,8.07,18,18s-8.07,18-18,18s-18-8.07-18-18S765.07,617,775,617 M775,616c-10.49,0-19,8.51-19,19
+			s8.51,19,19,19s19-8.51,19-19S785.49,616,775,616L775,616z"/>
+	</g>
+</g>
+<g id="Layer_4">
+	<rect x="266" y="373" transform="matrix(0.866 -0.5 0.5 0.866 -175.4746 355.1274)" class="st3" width="617.88" height="264.01"/>
+	<text transform="matrix(0.866 -0.5 0.5 0.866 494.8492 516.1509)" class="st4 st5">SLAM</text>
+</g>
+<g id="Layer_5">
+	<line class="st0" x1="287.5" y1="313.5" x2="477.5" y2="395.5"/>
+	<line class="st0" x1="516.18" y1="354.5" x2="406.48" y2="236.22"/>
+	<line class="st0" x1="603.5" y1="285.5" x2="603.5" y2="106.49"/>
+	<line class="st0" x1="746.5" y1="227.5" x2="821.5" y2="46.5"/>
+	<line class="st0" x1="516.5" y1="565.5" x2="395.51" y2="773.79"/>
+	<line class="st0" x1="589.5" y1="541.5" x2="649.5" y2="755.5"/>
+	<line class="st0" x1="649.5" y1="512.5" x2="918.5" y2="693.5"/>
+	<line class="st0" x1="775" y1="424.63" x2="1048.5" y2="494.5"/>
+</g>
+</svg>

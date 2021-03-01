@@ -7,7 +7,9 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
-})
+});
+
+/* Previous and Next Buttons */
 
 
 $(document).ready(function() {
@@ -26,3 +28,12 @@ $(document).ready(function() {
     //console.log(divs.length, now);
   });
 });
+
+
+/* Lights Animation */
+document.getElementById('lights').onclick = changeColor;
+
+function changeColor() {
+        document.body.style.color = "red";
+        return false;
+      }

@@ -129,31 +129,3 @@ function starBlink() {
 
 
 
-
-/* Scene 3 Lights Animation */
-
-
-let floorClick = document.getElementById("wallpanel3");
-let slam1Door = document.getElementById("slam1");
-let slam2Door = document.getElementById("slam2");
-
-
-floorClick.addEventListener("click", () => {
-    setInterval(doorSlammed, 1000);
-})
-
-function doorSlammed() {
-  if(slam1Door.style.visibility == "visible") {
-      slam1Door.style.visibility = "hidden";
-
-  }else {
-      slam1Door.style.visibility = "visible";
-  }
-  if(slam2Door.style.visibility == "visible") {
-      slam2Door.style.visibility = "hidden";
-
-  }else {
-      slam2Door.style.visibility = "visible";
-  }
-
-}

@@ -126,6 +126,10 @@ function starBlink() {
 }
 
 
+/* Audio */
 
+function playAudio(url) {
 
+   new Audio(url).play();
 
+}

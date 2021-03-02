@@ -38,7 +38,16 @@
 
 
         <!-- INTRO -->
-        <div>Welcome to our Comic. Click Next to read.</div>
+        <div class="flex-container">
+
+
+
+          <li class="flex-text">Welcome to our Comic.</li>
+          <li class="flex-text">Click on the panels for some magic.</li>
+          <li class="flex-text">Click Next to start.</li>
+
+
+        </div>
 
 
         <!-- Panel 1 -->
@@ -57,11 +66,11 @@
 
           <li class="flex-item"><img src="panels/p1-scene2.svg" alt="scene2"></li>
                       <!-- Scene 3 -->
-          
+
           <li class="flex-item"><img src="panels/p1-scene3.svg" alt="scene3"></li>
 
                 <!-- Scene 4 -->
-          <li class="flex-item">
+          <li class="flex-item" onclick="playAudio('sound/wow.wav')">
             <?xml version="1.0" encoding="utf-8"?>
             <!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -850,8 +859,7 @@
 
 
 
-          <!-- Panel 2 -->
-          <div>Panel 2</div>
+
 
 
 
@@ -879,7 +887,11 @@
 
           <div class="flex-container">
               <li class="flex-large"><img src="panels/p5-scene19.svg" alt="scene19"></li>
-              <li class="flex-large"><img src="panels/p5-scene20.svg" alt="scen20"></li>
+
+
+              <li class="flex-large" onclick="playAudio('sound/crying2.wav')">
+                <img src="panels/p5-scene20.svg" alt="scene20"/>
+              </li>
             </div>
 
           <!-- Panel 6 -->
@@ -888,13 +900,20 @@
               <li class="flex-item"><img src="panels/p6-scene21.svg" alt="scene21"></li>
               <li class="flex-item"><img src="panels/p6-scene22.svg" alt="scen22"></li>
               <li class="flex-item"><img src="panels/p6-scene23.svg" alt="scen23"></li>
-              <li class="flex-item"><img src="panels/p6-scene24.svg" alt="scen24"></li>
-              <li class="flex-item"><img src="panels/p6-scene25.svg" alt="scen25"></li>
-              <li class="flex-item"><img src="panels/p6-scene26.svg" alt="scen26"></li>
+              <li class="flex-half"><img src="panels/p6-scene24.svg" alt="scen24"></li>
+              <li class="flex-half"><img src="panels/p6-scene25.svg" alt="scen25"></li>
+
             </div>
 
+            <!-- Panel 7 -->
+
+            <div class="flex-container">
+
+                <li class="flex-large" onclick="playAudio('sound/end.wav')"><img src="panels/p6-scene26.svg" alt="scen26"></li>
+              </div>
+
           <!-- The end -->
-          <div>The END.</div>
+          <div class="flex-container">The END.</div>
 
 
 

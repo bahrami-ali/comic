@@ -168,6 +168,18 @@ body {
           border:2px solid black;
 
         }
+        .flex-text {
+
+
+          width: 100%;
+          height: auto;
+          margin: auto;
+          padding: 5px;
+          text-align: center;
+          /* line-height: 150px; */
+
+        }
+
 
         .flex-item {
 
@@ -180,6 +192,21 @@ body {
           /* line-height: 150px; */
           border:1px solid black;
         }
+
+
+        .flex-half {
+
+
+          width: 50%;
+          height: auto;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          padding: 5px;
+          /* line-height: 150px; */
+          border:1px solid black;
+        }
+
+
 
         .flex-medium {
 
@@ -340,6 +367,3 @@ body {
 #star4 {
   visibility: hidden;
 }
-
-
-

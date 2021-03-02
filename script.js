@@ -130,23 +130,30 @@ function starBlink() {
 
 
 
-/* Scene 5 Lights Animation */
+/* Scene 3 Lights Animation */
 
-// 
-// let floorClick = document.getElementById("floorpanel");
-// let yellowOne = document.getElementById("yellowstars");
-//
-//
-// floorClick.addEventListener("click", () => {
-//     setInterval(colorfulStar, 1000);
-// })
-//
-// function colorfulStar() {
-//   if(yellowone.style.visibility == "visible") {
-//       yellowone.style.visibility = "hidden";
-//
-//   }else {
-//       yellowone.style.visibility = "visible";
-//   }
-//
-// }
+
+let floorClick = document.getElementById("Layer_1");
+let slam1Door = document.getElementById("slam1");
+let slam2Door = document.getElementById("slam2");
+
+
+floorClick.addEventListener("click", () => {
+    setInterval(doorSlammed, 1000);
+})
+
+function doorSlammed() {
+  if(slam1Door.style.visibility == "visible") {
+      slam1Door.style.visibility = "hidden";
+
+  }else {
+      slam1Door.style.visibility = "visible";
+  }
+  if(slam2Door.style.visibility == "visible") {
+      slam2Door.style.visibility = "hidden";
+
+  }else {
+      slam2Door.style.visibility = "visible";
+  }
+
+}

@@ -342,9 +342,12 @@ body {
 }
 
 
-/*************** Scene 5 Interactive **************************/
+/*************** Scene 3 Interactive **************************/
 
-/* 
- #yellowstars {
-  visibility: visible;
-} */
+
+#slam1 {
+  visibility: hidden;
+}
+#slam2 {
+ visibility: hidden;
+}

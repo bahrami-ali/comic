@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    color: black;
 }
 
 body {
@@ -225,7 +226,6 @@ body {
 
 
 
-
 }
 
 .team-item {
@@ -240,7 +240,8 @@ body {
 }
 
 
-        #polaroid {
+
+#polaroid {
           max-width: 50%;
           height: auto;
           background-color: white;
@@ -248,7 +249,8 @@ body {
           margin-bottom: 25px;
         }
 
-        #container {
+
+#container {
           text-align: center;
           padding: 10px 20px;
         }
@@ -306,4 +308,13 @@ body {
 
 
 
+}
+#star-yellow {
+  visibility: visible;
+}
+#bottom-lightbulbs-yellow {
+  visibility: visible;
+}
+#top-lightbulbs-red {
+  visibility: visible;
 }

@@ -31,9 +31,49 @@ $(document).ready(function() {
 
 
 /* Lights Animation */
-document.getElementById('lights').onclick = changeColor;
 
-function changeColor() {
-        document.body.style.color = "red";
-        return false;
-      }
+let panelBorder = document.getElementById("Christmas_tree");
+let topLightbulbs = document.getElementById("top-lightbulbs-red");
+let bottomLightbulbs = document.getElementById("bottom-lightbulbs-yellow");
+let starColor = document.getElementById("star-yellow");
+
+panelBorder.addEventListener("click", () => {
+    setInterval(lightColorChange, 1000);
+  /*
+  if(topLightbulbs.style.visibility == "visible") {
+      topLightbulbs.style.visibility = "hidden";
+
+  }else {
+      topLightbulbs.style.visibility = "visible";
+
+  }
+  if(bottomLightbulbs.style.visibility == "visible") {
+    bottomLightbulbs.style.visibility = "hidden";
+  } else {
+    bottomLightbulbs.style.visibility = "visible";
+  }
+  if(starColor.style.visibility == "visible") {
+    starColor.style.visibility = "hidden";
+  } else {
+    starColor.style.visibility = "visible";
+  }*/
+})
+
+function lightColorChange() {
+  if(topLightbulbs.style.visibility == "visible") {
+      topLightbulbs.style.visibility = "hidden";
+
+  }else {
+      topLightbulbs.style.visibility = "visible";
+  }
+  if(bottomLightbulbs.style.visibility == "visible") {
+    bottomLightbulbs.style.visibility = "hidden";
+  } else {
+    bottomLightbulbs.style.visibility = "visible";
+  }
+  if(starColor.style.visibility == "visible") {
+    starColor.style.visibility = "hidden";
+  } else {
+    starColor.style.visibility = "visible";
+  }
+}

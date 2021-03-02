@@ -168,12 +168,15 @@ body {
           border:2px solid black;
 
         }
+
+
         .flex-text {
 
 
           width: 100%;
           height: auto;
-          margin: auto;
+          margin-top: 5px;
+          margin-bottom: 5px;
           padding: 5px;
           text-align: center;
           /* line-height: 150px; */
@@ -251,7 +254,7 @@ body {
   align-content: space-around;
 
   padding: 60px;
-  width: 60%;
+  width: 80%;
   margin: auto;
   list-style: none;
 
@@ -262,29 +265,37 @@ body {
 .team-item {
 
 
-  width: 48%;
+  width: 50%;
   height: auto;
   margin: auto;
-  padding: 2px;
+  padding: 4px;
   /* line-height: 150px; */
 
 }
 
 
 
+
+
 #polaroid {
-          max-width: 50%;
+          width: 48%;
           height: auto;
           background-color: white;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           margin-bottom: 25px;
+          padding:2px;
         }
+
+
 
 
 #container {
           text-align: center;
           padding: 10px 20px;
         }
+
+
+
 
 
 

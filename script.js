@@ -133,7 +133,7 @@ function starBlink() {
 /* Scene 3 Lights Animation */
 
 
-let floorClick = document.getElementById("Layer_1");
+let floorClick = document.getElementById("wallpanel3");
 let slam1Door = document.getElementById("slam1");
 let slam2Door = document.getElementById("slam2");
 

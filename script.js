@@ -9,6 +9,8 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 });
 
+
+
 /* Previous and Next Buttons */
 
 
@@ -30,7 +32,9 @@ $(document).ready(function() {
 });
 
 
-/* Lights Animation */
+
+
+/* Scene 1 Lights Animation */
 
 let panelBorder = document.getElementById("Christmas_tree");
 let topLightbulbs = document.getElementById("top-lightbulbs-red");
@@ -77,3 +81,72 @@ function lightColorChange() {
     starColor.style.visibility = "visible";
   }
 }
+
+
+
+
+
+
+
+/* Scene 4 Lights Animation */
+
+
+let borderClick = document.getElementById("Layer_13");
+let starone = document.getElementById("star1");
+let startwo = document.getElementById("star2");
+let starthree = document.getElementById("star3");
+let starfour = document.getElementById("star4");
+
+borderClick.addEventListener("click", () => {
+    setInterval(starBlink, 1000);
+})
+
+function starBlink() {
+  // if(starone.style.visibility == "visible") {
+  //     starone.style.visibility = "hidden";
+  //
+  // }else {
+  //     starone.style.visibility = "visible";
+  // }
+  if(startwo.style.visibility == "visible") {
+    startwo.style.visibility = "hidden";
+  } else {
+    startwo.style.visibility = "visible";
+  }
+  // if(starthree.style.visibility == "visible") {
+  //   starthree.style.visibility = "hidden";
+  // } else {
+  //   starthree.style.visibility = "visible";
+  // }
+  if(starfour.style.visibility == "visible") {
+    starfour.style.visibility = "hidden";
+  } else {
+    starfour.style.visibility = "visible";
+  }
+}
+
+
+
+
+
+
+/* Scene 5 Lights Animation */
+
+// 
+// let floorClick = document.getElementById("floorpanel");
+// let yellowOne = document.getElementById("yellowstars");
+//
+//
+// floorClick.addEventListener("click", () => {
+//     setInterval(colorfulStar, 1000);
+// })
+//
+// function colorfulStar() {
+//   if(yellowone.style.visibility == "visible") {
+//       yellowone.style.visibility = "hidden";
+//
+//   }else {
+//       yellowone.style.visibility = "visible";
+//   }
+//
+// }

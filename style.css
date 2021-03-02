@@ -84,7 +84,7 @@ body {
 
 
 
-/*************** Button **************************/
+/*************** Previous and Next Button **************************/
 
 .btn{
   display: flex;
@@ -115,6 +115,10 @@ body {
         }
 
 
+/*************** Divs Main Page **************************/
+
+
+
 .mydivs {
 
 
@@ -140,7 +144,7 @@ body {
 
 
 
-
+/*************** Containers inside Div **************************/
 
         .flex-container {
           /* We first create a flex layout context */
@@ -305,10 +309,10 @@ body {
     .navbar-links.active {
         display: flex;
     }
-
-
-
 }
+/*************** Scene 1 Interactive **************************/
+
+
 #star-yellow {
   visibility: visible;
 }
@@ -318,3 +322,29 @@ body {
 #top-lightbulbs-red {
   visibility: visible;
 }
+
+
+
+/*************** Scene 4 Interactive **************************/
+
+
+/* #star1 {
+  visibility: hidden;
+} */
+#star2 {
+  visibility: hidden;
+}
+/* #star3 {
+  visibility: visible;
+} */
+#star4 {
+  visibility: hidden;
+}
+
+
+/*************** Scene 5 Interactive **************************/
+
+/* 
+ #yellowstars {
+  visibility: visible;
+} */
